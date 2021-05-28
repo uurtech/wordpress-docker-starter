@@ -12,10 +12,10 @@ services:
       MYSQL_PASSWORD: "root"
     networks:
       - dress_network
-  x27_wp_app:
+  web_app:
     build:
       context: .
-      dockerfile: ./Dockerfile
+      dockerfile: ./dockerfile
     image: app/dress:v1
     volumes:
       - ./src/wp-content/:/var/www/html/wp-content/
