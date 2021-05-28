@@ -35,5 +35,7 @@ $table_prefix = 'wp_';
 if ( ! defined( 'ABSPATH' ) ) {
     define( 'ABSPATH', __DIR__ . '/' );
 }
-
+if ( isset( $_SERVER['HTTP_X_FORWARDED_PROTO'] ) && 'https' == $_SERVER['HTTP_X_FORWARDED_PROTO'] ) {
+    $_SERVER['HTTPS'] = 'on';
+}
 require_once ABSPATH . 'wp-settings.php';
