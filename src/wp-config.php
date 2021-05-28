@@ -4,8 +4,8 @@ ini_set('error_reporting', E_ALL );
 define('WP_DEBUG', false);
 define('WP_DEBUG_DISPLAY', false);
 
-define('WP_HOME','http://woo.dresden.io/');
-define('WP_SITEURL','http://woo.dresden.io/');
+define('WP_HOME','https://woo.dresden.io/');
+define('WP_SITEURL','https://woo.dresden.io/');
 define('DEPLOY_VERSION', '${VERSION}');
 define('DEPLOY_ENV', '${DEPLOY_ENV}');
 
