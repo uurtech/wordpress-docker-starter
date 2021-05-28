@@ -1,0 +1,31 @@
+limit_req_zone  $binary_remote_addr  zone=default:10m   rate=50r/m;
+
+server {
+    listen 80;
+    server_name _;
+    root /var/www/html/;
+    index index.php index.html index.htm;
+
+    charset utf-8;
+    client_max_body_size 200M;
+
+    location ~* \.(js|css|png|jpg|jpeg|gif|ico)$ {
+        expires max;
+        log_not_found off;
+    }
+
+    location / {
+        try_files $uri $uri/ /index.php?$args;
+    }
+
+    access_log /dev/stdout;
+    error_log /dev/stdout info;
+
+    # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/run/php/php7.4-fpm.sock;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        include fastcgi_params;
+    }
+}
