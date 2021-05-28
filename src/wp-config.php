@@ -16,7 +16,7 @@ define( 'AWS_SECRET_ACCESS_KEY', '' );
 define( 'DB_NAME', 'test' );
 define( 'DB_USER', 'root' );
 define( 'DB_PASSWORD', 'root' );
-define( 'DB_HOST', 'app_dress_mysql' );
+define( 'DB_HOST', 'app_dress_mysql_1' );
 define( 'DB_CHARSET', 'utf8' );
 define( 'DB_COLLATE', '' );
 define('FS_METHOD','direct');
