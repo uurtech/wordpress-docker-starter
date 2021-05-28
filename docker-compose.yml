@@ -20,7 +20,7 @@ services:
     volumes:
       - ./src/wp-content/:/var/www/html/wp-content/
     ports:
-      - "80:80"
+      - "81:80"
     depends_on:
       - dress_mysql
     networks:
