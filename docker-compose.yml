@@ -17,8 +17,6 @@ services:
       context: .
       dockerfile: ./dockerfile
     image: app/dress:v1
-    volumes:
-      - ./src/wp-content/:/var/www/html/wp-content/
     ports:
       - "81:80"
     depends_on:

@@ -30,7 +30,6 @@ RUN apt update \
     && npm install -g sass
 
 RUN chmod -R 755 /var/www/html
-COPY --from=builder /app/vendor/ /var/www/html/vendor/
 COPY --from=builder /app/ /var/www/html/
 
 COPY src/conf/default /etc/nginx/sites-available/default
