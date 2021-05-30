@@ -1,9 +1,9 @@
 version: '2'
 services:
   dress_mysql:
-    image: mydb
+    image: mysql
     volumes:
-      - mysqldata:/var/lib/mysql
+      - ./mysql/:/var/lib/mysql
     ports:
       - "3306:3306"
     environment:
@@ -17,6 +17,8 @@ services:
       context: .
       dockerfile: ./dockerfile
     image: app/dress:v1
+    volumes:
+      - ./wp:/var/www/html
     ports:
       - "81:80"
     depends_on:

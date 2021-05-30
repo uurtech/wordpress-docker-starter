@@ -36,7 +36,6 @@ COPY src/conf/default /etc/nginx/sites-available/default
 COPY src/conf/php.ini /etc/php/7.4/fpm/php.ini
 RUN chown -R www-data:www-data /etc/nginx/sites-available
 COPY src/entrypoint.sh .
-COPY src/wp-config.php /var/www/html/wp-config.php
 COPY src/load.php /tmp/load.php
 COPY src/robots.txt /var/www/html/
 
