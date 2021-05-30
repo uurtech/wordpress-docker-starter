@@ -1,0 +1,20 @@
+.featured-box-data h3 {
+    background-color: #eceded;
+    padding: 15px;
+    border: 1px solid #dbdfdf;
+    cursor: pointer;
+}
+.featured-box-inner {
+	display: none;
+	padding: 0 15px 0;
+}
+.featured-box-inner p:first-of-type {
+	margin-top: 0;
+}
+.featured-box-data h3::after {
+	float: right;
+	font-size: 22px;
+	content: '+';
+	font-weight: 700;
+	opacity: 0.5;
+}

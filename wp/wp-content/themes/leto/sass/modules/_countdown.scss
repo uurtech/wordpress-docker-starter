@@ -1,0 +1,30 @@
+
+.countdown-rtl {
+	direction: rtl;
+}
+.countdown-holding span {
+	color: #888;
+}
+.countdown-row {
+	text-align: center;
+}
+
+.countdown-section {
+	padding: 0 25px;
+}
+.countdown-section {
+	display: inline-block;
+	text-align: center;
+}
+.countdown-amount {
+    font-size: 48px;
+    font-weight: 300;
+}
+.countdown-period {
+    display: block;
+    color: #666;
+}
+.countdown-descr {
+	display: block;
+	width: 100%;
+}

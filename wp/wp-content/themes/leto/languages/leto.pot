@@ -1,0 +1,709 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Leto\n"
+"POT-Creation-Date: 2017-11-29 11:16+0200\n"
+"PO-Revision-Date: 2017-11-29 11:16+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;esc_html_e;esc_html__;esc_attr__;"
+"esc_html_x:1,2c;esc_attr_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"__ngettext_noop:1,2;_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "404"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: comments.php:38
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:44
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:54 comments.php:77
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:57 comments.php:80
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:58 comments.php:81
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:94
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:50
+msgid "Primary menu"
+msgstr ""
+
+#: functions.php:51
+msgid "Footer menu"
+msgstr ""
+
+#: functions.php:110
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:112
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:121
+msgid "Footer "
+msgstr ""
+
+#: header.php:30
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer.php:19 inc/customizer.php:117
+msgid "General"
+msgstr ""
+
+#: inc/customizer.php:65 inc/customizer.php:528
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:72
+msgid "Make the footer boxed?"
+msgstr ""
+
+#: inc/customizer.php:80 inc/customizer.php:97 inc/footer-functions.php:74
+msgid "Search"
+msgstr ""
+
+#: inc/customizer.php:87
+msgid "Enable search popup"
+msgstr ""
+
+#: inc/customizer.php:95
+msgid "Search title"
+msgstr ""
+
+#: inc/customizer.php:111
+msgid "Leto: WooCommerce"
+msgstr ""
+
+#: inc/customizer.php:124
+msgid "Show Login, Cart and Search in menu?"
+msgstr ""
+
+#: inc/customizer.php:134
+msgid "Single products"
+msgstr ""
+
+#: inc/customizer.php:141
+msgid "Hide product rating on single products?"
+msgstr ""
+
+#: inc/customizer.php:149
+msgid "Product archives"
+msgstr ""
+
+#: inc/customizer.php:156
+msgid "Fullwidth archives?"
+msgstr ""
+
+#: inc/customizer.php:164
+msgid "Number of products on shop archives"
+msgstr ""
+
+#: inc/customizer.php:177
+msgid "Number of columns"
+msgstr ""
+
+#: inc/customizer.php:183
+msgid "Two"
+msgstr ""
+
+#: inc/customizer.php:184
+msgid "Three"
+msgstr ""
+
+#: inc/customizer.php:185
+msgid "Four"
+msgstr ""
+
+#: inc/customizer.php:192
+msgid "Disable quickview links?"
+msgstr ""
+
+#: inc/customizer.php:200
+msgid "Hide product price?"
+msgstr ""
+
+#: inc/customizer.php:208
+msgid "Hide product ratings?"
+msgstr ""
+
+#: inc/customizer.php:216
+msgid "Hide sorting?"
+msgstr ""
+
+#: inc/customizer.php:224
+msgid "Hide number of results?"
+msgstr ""
+
+#: inc/customizer.php:234
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer.php:237
+msgid "Font families"
+msgstr ""
+
+#: inc/customizer.php:246
+msgid "Body fonts"
+msgstr ""
+
+#: inc/customizer.php:263
+msgid "Headings fonts"
+msgstr ""
+
+#: inc/customizer.php:279
+msgid "Font sizes"
+msgstr ""
+
+#: inc/customizer.php:288 inc/customizer.php:483
+msgid "Site title"
+msgstr ""
+
+#: inc/customizer.php:299 inc/customizer.php:498
+msgid "Site description"
+msgstr ""
+
+#: inc/customizer.php:310 inc/customizer.php:513
+msgid "Menu items"
+msgstr ""
+
+#: inc/customizer.php:345
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer.php:349
+msgid "Index/Archives"
+msgstr ""
+
+#: inc/customizer.php:356
+msgid "Show sidebar on blog index and archives?"
+msgstr ""
+
+#: inc/customizer.php:364
+msgid "Show post excerpts?"
+msgstr ""
+
+#: inc/customizer.php:373
+msgid "Excerpt length"
+msgstr ""
+
+#: inc/customizer.php:386
+msgid "Custom read more text"
+msgstr ""
+
+#: inc/customizer.php:394 inc/customizer.php:424
+msgid "Hide post categories?"
+msgstr ""
+
+#: inc/customizer.php:402 inc/customizer.php:432
+msgid "Hide post date?"
+msgstr ""
+
+#: inc/customizer.php:409
+msgid "Single posts"
+msgstr ""
+
+#: inc/customizer.php:416
+msgid "Hide post thumbnail?"
+msgstr ""
+
+#: inc/customizer.php:443
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer.php:448
+msgid "Body (general)"
+msgstr ""
+
+#: inc/customizer.php:463
+msgid "Body (post content)"
+msgstr ""
+
+#: inc/customizer.php:476
+msgid "Header"
+msgstr ""
+
+#: inc/customizer.php:535
+msgid "Footer background"
+msgstr ""
+
+#: inc/footer-functions.php:39
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: inc/footer-functions.php:41
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+#: inc/footer-functions.php:46
+#, php-format
+msgid "Theme: %2$s by %1$s."
+msgstr ""
+
+#: inc/header-functions.php:54
+msgid "Toggle menu"
+msgstr ""
+
+#: inc/header-functions.php:64
+msgid "Login / Register"
+msgstr ""
+
+#: inc/header-functions.php:75
+msgid "Cart"
+msgstr ""
+
+#: inc/header-functions.php:216 inc/header-functions.php:223
+msgid "Welcome to our site"
+msgstr ""
+
+#: inc/header-functions.php:217 inc/header-functions.php:224
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr ""
+
+#: inc/header-functions.php:219 inc/header-functions.php:226
+msgid "I am ready"
+msgstr ""
+
+#: inc/kirki/include-kirki.php:54
+msgid ""
+"A plugin is required to take advantage of this theme's features in the "
+"customizer."
+msgstr ""
+
+#: inc/kirki/include-kirki.php:55
+msgid "Install Kirki Toolkit now"
+msgstr ""
+
+#: inc/kirki/include-kirki.php:56
+msgid "Install Now"
+msgstr ""
+
+#: inc/kirki/include-kirki.php:59
+msgid ""
+"You have installed Kirki. Activate it to take advantage of this theme's "
+"features in the customizer."
+msgstr ""
+
+#: inc/kirki/include-kirki.php:60
+msgid "Activate Kirki Toolkit now"
+msgstr ""
+
+#: inc/kirki/include-kirki.php:61
+msgid "Activate Now"
+msgstr ""
+
+#: inc/page-builder.php:38
+msgid "Leto Theme Widgets"
+msgstr ""
+
+#: inc/template-functions.php:98
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-functions.php:104
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-functions.php:111
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:31
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:48
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:51
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:61
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:78 template-parts/content-page.php:32
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/woocommerce.php:205 widgets/class-leto-product-loop.php:194
+msgid "Show more"
+msgstr ""
+
+#: search.php:29
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:19 template-parts/content-single.php:57
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-single.php:46
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/woocommerce-modal.php:63
+msgid "More details"
+msgstr ""
+
+#: widgets/class-leto-blog.php:11
+msgid "Show the latest news from your blog."
+msgstr ""
+
+#: widgets/class-leto-blog.php:12
+msgid "Leto: Blog"
+msgstr ""
+
+#: widgets/class-leto-blog.php:24 widgets/class-leto-facts.php:33
+#: widgets/class-leto-featured-boxes.php:21 widgets/class-leto-gallery.php:23
+#: widgets/class-leto-product-loop.php:27
+msgid "Title"
+msgstr ""
+
+#: widgets/class-leto-blog.php:28
+msgid "Pick a category to display posts from:"
+msgstr ""
+
+#: widgets/class-leto-blog.php:30
+msgid "Show posts from all categories"
+msgstr ""
+
+#: widgets/class-leto-blog.php:39 widgets/class-leto-sidebar-posts.php:95
+msgid "Number of posts to show:"
+msgstr ""
+
+#: widgets/class-leto-facts.php:11
+msgid "Show your visitors some facts about your store."
+msgstr ""
+
+#: widgets/class-leto-facts.php:12
+msgid "Leto: Facts"
+msgstr ""
+
+#: widgets/class-leto-facts.php:18
+msgid "Free Delivery"
+msgstr ""
+
+#: widgets/class-leto-facts.php:19
+msgid "For orders over $99"
+msgstr ""
+
+#: widgets/class-leto-facts.php:21
+msgid "90 Days Return"
+msgstr ""
+
+#: widgets/class-leto-facts.php:22
+msgid "No questions asked"
+msgstr ""
+
+#: widgets/class-leto-facts.php:24
+msgid "Secure Payment"
+msgstr ""
+
+#: widgets/class-leto-facts.php:25
+#, php-format
+msgid "100% safe payment"
+msgstr ""
+
+#: widgets/class-leto-facts.php:27
+msgid "24/7 Support"
+msgstr ""
+
+#: widgets/class-leto-facts.php:28
+msgid "Dedicated support"
+msgstr ""
+
+#: widgets/class-leto-facts.php:31
+msgid "You can find a list of the available icons "
+msgstr ""
+
+#: widgets/class-leto-facts.php:31
+msgid "here."
+msgstr ""
+
+#: widgets/class-leto-facts.php:31
+msgid "Usage example: <strong>ion-paper-airplane</strong>"
+msgstr ""
+
+#: widgets/class-leto-facts.php:37
+msgid "FACT ONE"
+msgstr ""
+
+#: widgets/class-leto-facts.php:39 widgets/class-leto-facts.php:55
+#: widgets/class-leto-facts.php:71 widgets/class-leto-facts.php:87
+msgid "Fact name"
+msgstr ""
+
+#: widgets/class-leto-facts.php:44 widgets/class-leto-facts.php:60
+#: widgets/class-leto-facts.php:76 widgets/class-leto-facts.php:92
+msgid "Fact text"
+msgstr ""
+
+#: widgets/class-leto-facts.php:49 widgets/class-leto-facts.php:65
+#: widgets/class-leto-facts.php:81 widgets/class-leto-facts.php:97
+msgid "Fact icon"
+msgstr ""
+
+#: widgets/class-leto-facts.php:53
+msgid "FACT TWO"
+msgstr ""
+
+#: widgets/class-leto-facts.php:69
+msgid "FACT THREE"
+msgstr ""
+
+#: widgets/class-leto-facts.php:85
+msgid "FACT FOUR"
+msgstr ""
+
+#: widgets/class-leto-featured-boxes.php:11
+msgid "Display featured content in up to 4 boxes."
+msgstr ""
+
+#: widgets/class-leto-featured-boxes.php:12
+msgid "Leto: Featured boxes"
+msgstr ""
+
+#: widgets/class-leto-featured-boxes.php:34
+msgid "Click to expand"
+msgstr ""
+
+#: widgets/class-leto-featured-boxes.php:34
+#, php-format
+msgid "Featured box %s"
+msgstr ""
+
+#: widgets/class-leto-featured-boxes.php:40
+msgid "Upload background image"
+msgstr ""
+
+#: widgets/class-leto-featured-boxes.php:42
+msgid "Text"
+msgstr ""
+
+#: widgets/class-leto-featured-boxes.php:46
+msgid "Button link"
+msgstr ""
+
+#: widgets/class-leto-featured-boxes.php:50
+#: widgets/class-leto-product-loop.php:59
+msgid "Button text"
+msgstr ""
+
+#: widgets/class-leto-gallery.php:11
+msgid "Display your choice of images"
+msgstr ""
+
+#: widgets/class-leto-gallery.php:12
+msgid "Leto: Gallery"
+msgstr ""
+
+#: widgets/class-leto-gallery.php:28
+msgid "Upload images"
+msgstr ""
+
+#: widgets/class-leto-product-loop.php:11
+msgid "Display products in a grid."
+msgstr ""
+
+#: widgets/class-leto-product-loop.php:12
+msgid "Leto: Product loop"
+msgstr ""
+
+#: widgets/class-leto-product-loop.php:30
+msgid "Choose the categories you wish to display products from:"
+msgstr ""
+
+#: widgets/class-leto-product-loop.php:31
+msgid "Select the categories you wish to display posts from."
+msgstr ""
+
+#: widgets/class-leto-product-loop.php:45
+msgid "Show navigation filter? (category slugs must be specified)"
+msgstr ""
+
+#: widgets/class-leto-product-loop.php:46
+msgid "Number of products to show:"
+msgstr ""
+
+#: widgets/class-leto-product-loop.php:48
+msgid "Order products by"
+msgstr ""
+
+#: widgets/class-leto-product-loop.php:50
+msgid "Date"
+msgstr ""
+
+#: widgets/class-leto-product-loop.php:51
+msgid "Best sellers"
+msgstr ""
+
+#: widgets/class-leto-product-loop.php:52
+msgid "Random"
+msgstr ""
+
+#: widgets/class-leto-product-loop.php:56
+msgid "You can add a button under the products"
+msgstr ""
+
+#: widgets/class-leto-product-loop.php:57
+msgid "Button URL"
+msgstr ""
+
+#: widgets/class-leto-product-loop.php:147
+msgid "All"
+msgstr ""
+
+#: widgets/class-leto-sidebar-posts.php:13
+msgid "Same as the core recent posts widget, but with thumbnails"
+msgstr ""
+
+#: widgets/class-leto-sidebar-posts.php:16
+msgid "Leto: Sidebar posts"
+msgstr ""
+
+#: widgets/class-leto-sidebar-posts.php:25
+msgid "Recent Posts"
+msgstr ""
+
+#: widgets/class-leto-sidebar-posts.php:92 widgets/class-leto-social.php:61
+msgid "Title:"
+msgstr ""
+
+#: widgets/class-leto-sidebar-posts.php:99
+msgid "Display post date?"
+msgstr ""
+
+#: widgets/class-leto-social.php:11
+msgid "Display your social profile"
+msgstr ""
+
+#: widgets/class-leto-social.php:12
+msgid "Leto: Social Profile"
+msgstr ""
+
+#: widgets/class-leto-social.php:56
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: widgets/class-leto-social.php:64
+msgid ""
+"In order to display your social icons in a widget, all you need to do is go "
+"to <strong>Appearance > Menus</strong> and create a menu containing links to "
+"your social profiles, then assign that menu here. Supported networks: "
+"Facebook, Twitter, Google Plus, Instagram, Dribble, Vimeo, Linkedin, "
+"Youtube, Flickr, Pinterest, Tumblr, Foursquare, Behance."
+msgstr ""
+
+#: widgets/class-leto-social.php:66
+msgid "Select your social menu:"
+msgstr ""
+
+#: widgets/class-leto-social.php:68
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:30
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:30
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:38
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:42
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:29
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:30
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:35
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer, please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""

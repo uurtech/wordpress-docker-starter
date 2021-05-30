@@ -1,0 +1,226 @@
+// Layout full
+.container-full {
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	@media (min-width: 768px) {
+		padding-left: 15px;
+		padding-right: 15px;
+		max-width: 750px;
+	}
+
+	@media (min-width: 992px) {
+		padding-left: 15px;
+		padding-right: 15px;
+		max-width: 970px;
+	}
+
+	@media (min-width: 1200px) {
+		padding-left: 65px;
+		padding-right: 65px;
+		max-width: 1720px;
+	}
+}
+
+.container .container {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+// layout box width helper
+.layout-boxed-width {
+	max-width: 1310px;
+	margin: 0 auto;
+}
+
+.relative {
+	position: relative;
+}
+
+.panels-stretch {
+	zoom: 1;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+
+	&:focus {
+		background-color: $color__background-screen;
+		border-radius: 3px;
+		box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+		clip: auto !important;
+		color: $color__text-screen;
+		display: block;
+		font-weight: bold;
+		height: auto;
+		left: 5px;
+		line-height: normal;
+		padding: 15px 23px 14px;
+		text-decoration: none;
+		top: 5px;
+		width: auto;
+		z-index: 100000; /* Above WP toolbar. */
+	}
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+	outline: 0;
+}
+
+/* Preloader */
+.main-preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,0.9);
+	z-index: 123456789 !important;
+	opacity: 1;
+	@include transition(opacity 0.3s ease);
+}
+
+.main-preloader .ball-scale {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	@include transform(translate(-50%, -50%));
+}
+
+.main-preloader.window-is-loaded {
+	opacity: 0;
+}
+
+@-webkit-keyframes ball-scale {
+	0% {
+		@include transform(scale(0));
+	}
+	100% {
+		@include transform(scale(1));
+		opacity: 0;
+	}
+}
+@keyframes ball-scale {
+	0% {
+		@include transform(scale(0));
+	}
+	100% {
+		@include transform(scale(1));
+		opacity: 0;
+	}
+}
+
+.ball-scale > div {
+	background-color: red;
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	margin: 2px;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	@include animation(ball-scale 1s 0s ease-in-out infinite);
+}
+
+@-moz-document url-prefix() {
+
+	.ball-scale > div {
+		animation: ball-scale-notransform 1s 0s ease-in-out infinite;
+	}
+}
+
+@-webkit-keyframes ball-scale-notransform {
+	0% {
+		width: 0;
+		height: 0;
+	}
+	100% {
+		width: 60px;
+		height: 60px;
+		opacity: 0;
+	}
+}
+
+@keyframes ball-scale-notransform {
+	0% {
+		width: 0;
+		height: 0;
+	}
+	100% {
+		width: 60px;
+		height: 60px;
+		opacity: 0;
+	}
+}
+
+.spacer-20 {
+	height: 20px;
+	display: block;
+}
+
+.off {
+	color: red;
+}
+
+/* additional columns for bootstrap */
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.col-xs-5ths {
+	width: 20%;
+	float: left;
+}
+
+@media (min-width: 768px) {
+	.col-sm-5ths {
+		width: 20%;
+		float: left;
+	}
+}
+
+@media (min-width: 992px) {
+	.col-md-5ths {
+		width: 20%;
+		float: left;
+	}
+}
+
+@media (min-width: 1200px) {
+	.col-lg-5ths {
+		width: 20%;
+		float: left;
+	}
+}
+
+.line-sep {
+	margin-top: 30px;
+	margin-bottom: 70px;
+	border-bottom: 1px solid #ededed;
+}
+
+.section-cta {
+	text-align: center;
+	font-size: 30px;
+	padding-top: 50px;
+
+	a {
+		color: #ff0000;
+		border-bottom: 1px solid #ff0000;
+	}
+}

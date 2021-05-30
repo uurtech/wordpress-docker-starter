@@ -1,0 +1,103 @@
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+@import "links";
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+@import "menus";
+
+/*--------------------------------------------------------------
+## Breadcrumbs
+--------------------------------------------------------------*/
+.woocommerce-breadcrumb,
+.breadcrumbs {
+	font-size: 16px;
+	color: #999;
+
+	a {
+		color: #000;
+	}
+}
+
+/* Product adjacent nav */
+.products-adjacent-nav {
+	.prev,
+	.next {
+		display: inline-block;
+		padding-left: 20px;
+
+		a {
+			color: #999;
+			font-size: 30px;
+			line-height: 0;
+
+			&:hover {
+				color: #000;
+			}
+		}
+	}
+
+	.prev {
+		padding-left: 0;
+	}
+}
+
+/* Pagination */
+.pagination-wrapper {
+	padding-top: 100px;
+
+	.pagination.pagination-loadmore {
+		text-align: center;
+	}
+
+	.pagination {
+		.nav-links {
+			overflow: hidden;
+		}
+
+		.page-numbers {
+			margin-right: 20px;
+			margin-bottom: 10px;
+			color: #999;
+			display: inline-block;
+			@include transition(all .3s ease);
+			text-transform: uppercase;
+			border-bottom: 1px solid transparent;
+			font-size: 16px;
+			vertical-align: middle;
+			
+			&:hover,
+			&.current {
+				color: #000;
+				border-color: #000;
+			}
+
+			&.dots:hover {
+				border-color: transparent;
+				color: #999;
+			}
+		}
+
+		.next,
+		.prev {
+			border-bottom: 0;
+			color: #000;
+			font-size: 24px;
+			margin-right: 30px;
+		}
+
+		.next {
+			margin-right: 0;
+			margin-left: 10px;
+		}
+
+		@media ( max-width: 767px ) {
+			.page-numbers {
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+

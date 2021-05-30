@@ -1,0 +1,89 @@
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+	font-size: ($sizeValue * 16) * 1px;
+	font-size: $sizeValue * 1rem;
+}
+
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Clearfix
+@mixin clearfix() {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after() {
+	clear: both;
+}
+
+@mixin transform($param) {
+    -webkit-transform: $param;
+    -moz-transform: $param;
+    -ms-transform: $param;
+    -o-transform: $param;
+    transform: $param;
+}
+
+@mixin animation($param) {
+    -webkit-animation: $param;
+    -moz-animation: $param;
+    -ms-animation: $param;
+    -o-animation: $param;
+    animation: $param;
+}
+
+@mixin transition($param) {
+    -webkit-transition: $param;
+    -moz-transition: $param;
+    -ms-transition: $param;
+    -o-transition: $param;
+    transition: $param;
+}
+
+@mixin transition-delay($param) {
+    -webkit-transition-delay: $param;
+    -moz-transition-delay: $param;
+    -ms-transition-delay: $param;
+    -o-transition-delay: $param;
+    transition-delay: $param;
+}
+
+@mixin box-sizing($param) {
+    -webkit-box-sizing: $param;
+    -moz-box-sizing: $param;
+    -ms-box-sizing: $param;
+    -o-box-sizing: $param;
+    box-sizing: $param;
+}
+
+
+@mixin shadow($param) {
+    -webkit-box-shadow: $param;
+    -moz-box-shadow: $param;
+    -ms-box-shadow: $param;
+    -o-box-shadow: $param;
+    box-shadow: $param;
+}
+
+@mixin border-radius($param) {
+    -webkit-border-radius: $param;
+    -moz-border-radius: $param;
+    -ms-border-radius: $param;
+    -o-border-radius: $param;
+    border-radius: $param;
+}
+
+@mixin backface-visibility($param) {
+    -webkit-backface-visibility: $param;
+    -moz-backface-visibility: $param;
+    -ms-backface-visibility: $param;
+    -o-backface-visibility: $param;
+    backface-visibility: $param;
+}

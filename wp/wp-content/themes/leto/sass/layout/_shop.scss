@@ -1,0 +1,410 @@
+.shop-filter-toolbar {
+	margin-bottom: 50px;
+	margin-top: -5px;
+
+	.show-filters {
+		font-size: 16px;
+
+		&.filter-active {
+			color: #999;
+			i:before {
+				content: "\f209";
+			}
+		}
+
+		i {
+			margin-right: 10px;
+		}
+	}
+
+	.product-result-count {
+		font-size: 16px;
+	}
+
+	.product-ordering {
+		font-size: 16px;
+	}
+}
+
+.shop-filter-content {
+	margin-left: -15px;
+	margin-right: -15px;
+	display: none;
+	@include animation(fadeIn-animated 1s);
+	z-index: -999;
+	opacity: 0;
+
+	&.active {
+		opacity: 1;
+		z-index: 1;
+	}
+}
+
+.shop-content {}
+
+.shop-filter-bottom {
+	.toggle-filter-popup {
+		font-size: 16px;
+		font-weight: 500;
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		z-index: 25;
+		line-height: normal;
+		display: inline-block;
+		padding: 15px 40px;
+		text-transform: uppercase;
+		background-color: #000;
+		color: #fff;
+		text-decoration: none;
+		backface-visibility: hidden;
+		overflow: visible;
+		opacity: 1;
+		@include transition(all .2s ease);
+
+		i {
+			margin-right: 10px;
+		}
+	}
+
+	.filter-popup-active & {
+		.toggle-filter-popup {
+			opacity: 0;
+		}
+	}
+}
+
+.shop-filter-popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.90);
+	color: #fff;
+	padding-bottom: 60px;
+	overflow-y: scroll;
+	opacity: 0;
+	visibility: hidden;
+	@include transition(all .3s ease);
+	letter-spacing: 2;
+
+	.filter-popup-active & {
+		visibility: visible;
+		opacity: 1;
+		z-index: 990;
+
+		.footer-button-filter {
+			@include transform(translateX(0));
+		}
+	}
+
+	.close-filter-popup {
+		border: 0;
+		color: #fff;
+		padding: 0;
+		font-size: 30px;
+		position: fixed;
+		right: 15px;
+		margin-top: 10px;
+		width: 40px;
+		height: 40px;
+		text-align: center;
+		line-height: normal;
+		@include transition(all .3s ease);
+
+		&:hover {
+			color: #999;
+			@include transform(rotate(-180deg));
+		}
+	}
+
+	.filter-popup-content {
+		margin-left: -15px;
+		margin-right: -15px;
+		margin-top: 80px;
+		padding-bottom: 80px;
+	}
+
+	footer {
+		position: fixed;
+		bottom: 0;
+		color: #9c9c9c;
+		text-transform: uppercase;
+		font-size: 10px;
+		margin-top: 30px;
+	}
+
+	.footer-button-filter {
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		@include transform(translateX(100%));
+		@include transition(all .3s ease-in-out);
+
+		.clear-filters,
+		.apply-filters {
+			width: 200px;
+			text-align: center;
+			text-transform: uppercase;
+			float: left;
+			outline: 0;
+			letter-spacing: 2;
+
+			&:focus {
+				outline: 0;
+			}
+		}
+
+		.clear-filters {
+			background-color: #000;
+			color: #fff;
+			border-color: #000;
+		}
+
+		.apply-filters {
+			background-color: #fff;
+			float: left;
+			color: #333;
+			border-color: #fff;
+		}
+	}
+
+	@media (max-width: 991px) {
+		& {
+			overflow-y: hidden;
+		}
+
+		.filter-popup-content {
+			margin-left: 0;
+			margin-right: 0;
+			height: calc(100% - 80px);
+			overflow-y: scroll;
+			margin-top: 60px;
+			padding-bottom: 0;
+		}
+	}
+
+	@media (max-width: 767px) {
+		footer {
+			position: relative;
+		}
+
+		.footer-button-filter {
+			width: 100%;
+
+			.clear-filters,
+			.apply-filters {
+				width: 50%;
+			}
+		}
+	}
+}
+
+.post-type-archive-product ul.products {
+	@extend .plain-list;
+
+	.product-category {
+		float: left;
+		width: 50%;
+		margin-bottom: 70px;
+		padding: 30px;
+
+		&:nth-of-type(2n+1) {
+			clear: left;
+		}
+
+		img {
+			width: 100%;
+			height: auto;
+			@include transition(opacity .3s ease-in-out);
+			backface-visibility: hidden;
+		}
+
+		&:hover {
+			img {
+				opacity: .8;
+			}
+		}
+
+		&-inner {
+			position: relative;
+		}
+
+		&-text {
+			position: absolute;
+			left: 70px;
+			bottom: -90px;
+			max-width: 250px;
+			width: 100%;
+		}
+
+		.woocommerce-loop-category__title {
+			font-size: 40px;
+			color: #333;
+			max-width: 250px;
+			margin-left: 70px;
+			margin-top: -80px;
+			position: relative;
+
+			.count {
+				display: none;
+			}
+		}
+
+		&-desc {
+			color: #999;
+			font-size: 16px;
+			max-width: 300px;
+			margin-left: 70px;			
+		}
+
+		&-link {
+			font-size: 16px;
+			font-weight: 500;
+
+			i {
+				margin-left: 5px;
+				@include transition(all .3s ease);
+			}
+
+			&:hover {
+				i {
+					margin-left: 10px;
+				}
+			}
+		}
+
+		&.product-cat-1 {
+			padding-right: 70px;
+		}
+
+		&.product-cat-2 {
+			padding-left: 200px;
+			padding-top: 200px;
+
+			.product-cat-text {
+				bottom: auto;
+				top: -70px;
+			}
+		}
+
+		&.product-cat-3 {
+			padding-right: 70px;
+			padding-left: 195px;
+		}
+
+		&.product-cat-4 {
+			padding-right: 165px;
+			padding-left: 15px;
+		}
+
+		&.product-cat-5 {
+			padding-right: 200px;
+
+			.product-cat-text {
+				left: auto;
+				right: -100px;
+			}
+		}
+
+		&.product-cat-6 {
+			padding-top: 265px;
+			padding-left: 70px;
+
+			.product-cat-text {
+				bottom: auto;
+				top: -135px;
+				max-width: 330px;
+			}
+		}
+	}
+
+	@media (max-width: 991px) {
+		.product-cat {
+			float: none;
+			width: 100%;
+		}
+	}
+
+	@media (max-width: 600px) {
+		.product-cat,
+		.product-cat.product-cat-1,
+		.product-cat.product-cat-2,
+		.product-cat.product-cat-3,
+		.product-cat.product-cat-4,
+		.product-cat.product-cat-5,
+		.product-cat.product-cat-6 {
+			padding: 0;
+			margin-bottom: 50px;
+
+			.product-cat-text {
+				top: auto;
+				left: auto;
+				bottom: auto;
+				right: auto;
+				position: relative;
+				max-width: 100%;
+			}
+
+			.product-cat-title {
+				font-size: 24px;
+			}
+		}
+	}
+}
+
+// Shop Full width
+.shop-fullwidth {
+	.site-content > .container-full {
+		max-width: 100%;
+	}
+
+	@media (min-width: 768px) {
+		.site-content > .container-full {
+			max-width: 100%;
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+	@media (min-width: 992px) {
+		.site-content > .container-full {
+			max-width: 100%;
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+	@media (min-width: 1200px) {
+		.site-content > .container-full {
+			max-width: 100%;
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}
+
+@media (max-width: 991px) {
+	.shop-filter-content {
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 50px;
+	}
+}
+
+
+
+@keyframes fadeIn-animated {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+

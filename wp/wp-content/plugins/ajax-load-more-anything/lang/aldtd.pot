@@ -1,0 +1,153 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Load More Anything\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-07 09:26+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.3; wp-5.5.1"
+
+#. Description of the plugin
+msgid ""
+"A simple plugin that help you to Load more any item with jQuery. You can use "
+"Ajaxify Load More button for your blog post, Comments, page, Category, "
+"Recent Posts, Sidebar widget Data, Woocommerce Product, Images, Photos, "
+"Videos, custom Div or whatever you want."
+msgstr ""
+
+#. Author of the plugin
+msgid "Akhtarujjaman Shuvo"
+msgstr ""
+
+#: ajax-load-div.php:465
+msgid "Create Issue on Github"
+msgstr ""
+
+#: ajax-load-div.php:434
+msgid "Custom CSS"
+msgstr ""
+
+#: ajax-load-div.php:448
+msgid "Do you have any work need to be done ?"
+msgstr ""
+
+#: ajax-load-div.php:450
+msgid "Email Us"
+msgstr ""
+
+#: ajax-load-div.php:113
+msgid ""
+"Enter the name of Load More Button <br> Use <code>+[count]</code> for "
+"countable button like +15 more"
+msgstr ""
+
+#: ajax-load-div.php:110
+msgid "How Many Item Will Load When Click Load More Button?"
+msgstr ""
+
+#: ajax-load-div.php:107
+msgid "How many item will show initially"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/akshuvo/load-more-anything/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.facebook.com/akhterjshuvo/"
+msgstr ""
+
+#: ajax-load-div.php:456
+msgid "If you like my plugin please leave a review for inspire me"
+msgstr ""
+
+#: ajax-load-div.php:109
+msgid "Load Items"
+msgstr ""
+
+#. Name of the plugin
+msgid "Load More Anything"
+msgstr ""
+
+#: ajax-load-div.php:116
+msgid "Load More Anyting"
+msgstr ""
+
+#: ajax-load-div.php:112
+msgid "Load More Button Label"
+msgstr ""
+
+#: ajax-load-div.php:100
+msgid "Load More Button Selector"
+msgstr ""
+
+#: ajax-load-div.php:101
+msgid "Load more button will be insert end of this selector"
+msgstr ""
+
+#: ajax-load-div.php:103
+msgid "Load More Items Selector"
+msgstr ""
+
+#: ajax-load-div.php:460
+msgid "Questions/Suggestions/Support:"
+msgstr ""
+
+#: ajax-load-div.php:456
+msgid "Review Now"
+msgstr ""
+
+#: ajax-load-div.php:104
+msgid ""
+"Selector for load more items. Example: <code>.parent_selector .items</code>"
+msgstr ""
+
+#: ajax-load-div.php:461
+msgid "Video Tutorial"
+msgstr ""
+
+#: ajax-load-div.php:463
+msgid "View Support Forum"
+msgstr ""
+
+#: ajax-load-div.php:106
+msgid "Visiable Items"
+msgstr ""
+
+#: ajax-load-div.php:449
+msgid ""
+"We do WordPress Theme & Plugin development or Customization  and Website "
+"Maintainance"
+msgstr ""
+
+#: ajax-load-div.php:130
+msgid "Wrapper - 1"
+msgstr ""
+
+#: ajax-load-div.php:181
+msgid "Wrapper - 2"
+msgstr ""
+
+#: ajax-load-div.php:232
+msgid "Wrapper - 3"
+msgstr ""
+
+#: ajax-load-div.php:283
+msgid "Wrapper - 4"
+msgstr ""
+
+#: ajax-load-div.php:334
+msgid "Wrapper - 5"
+msgstr ""
+
+#: ajax-load-div.php:385
+msgid "Wrapper - 6 ( For Flex Display )"
+msgstr ""

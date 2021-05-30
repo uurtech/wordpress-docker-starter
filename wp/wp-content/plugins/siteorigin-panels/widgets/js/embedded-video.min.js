@@ -1,0 +1,1 @@
+jQuery((function(i){i(".siteorigin-fitvids").fitVids()}));

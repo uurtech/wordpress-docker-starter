@@ -1,0 +1,60 @@
+@import "buttons";
+
+@import "fields";
+
+/* Contact form */
+.contact-box-form {
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-top: 40px;
+
+	.contact-form-title {
+		text-align: center;
+		font-size: 36px;
+		margin-bottom: 80px;
+		margin-top: 0;
+	}
+
+	label {
+		width: 100%;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	textarea {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		background-color: transparent;
+		border: 0;
+		border-bottom: 1px solid #c5c5c5;
+		position: relative;
+		@include transition(all .3s ease);
+		font-size: 16px;
+		color: #000;
+
+		&:focus {
+			border-color: #000;
+		}
+	}
+
+	.form-submit {
+		text-align: center;
+	}
+
+	input[type="submit"] {
+		text-align: center;
+		padding: 0;
+		height: auto;
+		border: 0;
+		border-bottom: 1px solid #9d9d9d;
+		font-size: 18px;
+		font-weight: 500;
+		margin-top: 55px;
+
+		&:hover {
+			border-color: #000;	
+		}
+
+	}
+}

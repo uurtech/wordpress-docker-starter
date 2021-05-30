@@ -1,0 +1,156 @@
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+.form-control {
+	color: $color__text-input;
+	border: 1px solid $color__border-input;
+	border-radius: 0;
+	@include shadow(none);
+
+	&:focus {
+		color: $color__text-input-focus;
+		outline: 0;
+		@include shadow(none);
+	}
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"] {
+	height: 55px;
+	padding: 5px 20px;
+}
+
+textarea {
+	padding: 15px 20px;
+}
+
+select {
+	border: 1px solid $color__border-input;
+	height: 50px;
+
+	&:focus {
+		outline: 0;
+	}
+}
+
+textarea {
+	width: 100%;
+}
+
+.field-input-group {
+	display: table;
+	width: 100%;
+
+	.group-control,
+	.group-addon {
+		display: table-cell;
+	}
+
+	.group-control {
+		position: relative;
+		z-index: 2;
+		float: left;
+		width: 100%;
+		margin-bottom: 0;
+	}
+
+	.group-addon {
+		position: relative;
+		white-space: nowrap;
+		width: 1%;
+		vertical-align: middle;
+	}
+}
+
+.select-wrapper {
+	position: relative;
+	display: inline-block;
+	outline: 0;
+
+	&:after {
+		content: "\f35f";
+		display: inline-block;
+		font-family: "Ionicons";
+		speak: none;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		text-rendering: auto;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		color: #000;
+		position: absolute;
+		font-size: 16px;
+		top: 50%;
+		right: 15px;
+		@include transform(translateY(-50%));
+	}
+
+	select {
+		display: block;
+		padding: 0 34px 0 17px;
+		background-color: #fff;
+		border-radius: 0;
+		border: 0;
+		cursor: pointer;
+		outline: 0;
+		height: auto;
+		width: 100%;
+		-moz-appearance: none;
+		-webkit-appearance: none;
+	}
+
+	.widget & {
+		display: block;
+		border-bottom: 1px solid #000;
+
+		select {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			width: 100%
+		}
+	}
+}
+
+label {
+	font-weight: 400;
+}
+
+.input-text, 
+input[type=email], 
+input[type=password], 
+input[type=search], 
+input[type=text], 
+input[type=url], 
+textarea {
+	-webkit-appearance: none;
+	outline: none;
+}

@@ -1,0 +1,15 @@
+{
+    "name": "sorensenjg/woographql-composite-products",
+    "description": "Add WooCommerce Composite Products support to the WPGraphQL schema.",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Justin Sorensen",
+            "email": "hey@sorensenjg.com"
+        }
+    ],
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": ">=7.1.0"
+    }
+}

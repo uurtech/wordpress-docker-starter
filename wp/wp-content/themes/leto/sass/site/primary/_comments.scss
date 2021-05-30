@@ -1,0 +1,192 @@
+.comment-content a {
+	word-wrap: break-word;
+}
+.bypostauthor {
+	display: block;
+}
+
+.post-comments-wrap {
+	background-color: #f6f6f6;
+	padding: 100px 0;
+	clear: both;
+
+	.comment-reply-title {
+		font-size: 30px;
+		margin-bottom: 0;
+		text-align: center;
+
+		small {
+			font-size: 80%;
+
+			#cancel-comment-reply-link:before {
+				content: "/";
+				padding: 0 10px;
+				display: inline-block;
+			}
+		}
+	}
+
+	.post-comments-title {
+		font-size: 30px;
+		margin-bottom: 0;
+		text-align: center;
+	}
+
+}
+
+.post-comments-list {
+	padding: 0;
+	margin: 40px 0;
+	list-style: none;
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	ul.children {
+		margin-left: 11%;
+	}
+
+	.comment-entry,
+	.comment-respond {
+		margin-bottom: 30px;
+	}
+
+	.comment-entry {
+		padding-bottom: 30px;
+	}
+
+	.comment-avatar {
+		float: left;
+		margin: 0;
+		margin-right: 20px;
+		width: 8%;
+	}
+
+	.comment-text {
+		overflow: hidden;
+		position: relative;
+		padding: 20px;
+		border-top: 1px solid #d9d9d9;
+	}
+
+	.comment-body *:last-child {
+		margin-bottom: 0;
+	}
+
+	.comment-links {
+		margin-top: 30px;
+
+		a {
+			display: inline-block;
+			color: #0099cc;
+			font-style: italic;
+			font-size: 14px;
+		}
+	}
+
+	.comment-head {
+		margin-bottom: 25px;
+	}
+
+	.comment-author-name {
+		margin: 0;
+		font-size: 16px;
+		display: inline-block;
+		font-weight: 500;
+	}
+
+	.comment-time {
+		font-size: 13px;
+		display: inline-block;
+		color: #999999;
+	}
+
+	@media (max-width: 479px) {
+		.comment-avatar {
+			display: none;
+		}
+
+		ul.children {
+			margin-left: 10%;
+		}
+
+		.comment-links {
+			position: relative;
+			top: auto;
+			right: auto;
+			line-height: normal;
+			text-align: right;
+		}
+	}
+}
+
+.comment-form {
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-top: 40px;
+
+	.comment-form-author,
+	.comment-form-email,
+	.comment-form-url {
+		width: 33.33333%;
+		float: left;
+		padding-right: 30px;
+	}
+	.comment-form-url {
+		padding-right: 0;
+	}
+
+	input[type="url"],
+	input[type="text"],
+	input[type="email"],
+	textarea {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		background-color: transparent;
+		border: 0;
+		border-bottom: 1px solid #c5c5c5;
+		position: relative;
+		@include transition(all .3s ease);
+		font-size: 16px;
+		color: #000;
+
+		&:focus {
+			border-color: #000;
+		}
+	}
+
+	.form-submit {
+		text-align: center;
+	}
+
+	input[type="submit"] {
+		text-align: center;
+		padding: 0;
+		height: auto;
+		border: 0;
+		border-bottom: 1px solid #9d9d9d;
+		font-size: 18px;
+		font-weight: 500;
+		margin-top: 55px;
+
+		&:hover {
+			border-color: #000;	
+		}
+
+	}
+}
+
+@media ( max-width: 600px ) {
+	.comment-form {
+		.comment-form-author,
+		.comment-form-email,
+		.comment-form-url {
+			width: 100%;
+			padding-right: 0;	
+		}
+	}
+}

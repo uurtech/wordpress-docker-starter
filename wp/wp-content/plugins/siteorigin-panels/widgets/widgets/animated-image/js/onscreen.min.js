@@ -1,0 +1,1 @@
+!function(e){e.expr[":"].onScreen=function(n){var o=e(window),r=o.scrollTop(),t=r+o.height(),i=e(n),c=i.offset().top,f=i.height();return c>=r&&c+f+30<t}}(jQuery);

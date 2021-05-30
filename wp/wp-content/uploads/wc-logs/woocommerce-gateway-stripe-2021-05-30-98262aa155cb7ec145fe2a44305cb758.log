@@ -1,0 +1,316 @@
+2021-05-30T10:56:49+00:00 DEBUG 
+====Stripe Version: 5.2.0====
+====Start Log====
+sources/src_1IwmK4GPEcYZbxUfoWxBty9Q
+====End Log====
+
+
+2021-05-30T10:56:50+00:00 DEBUG 
+====Stripe Version: 5.2.0====
+====Start Log====
+customers request: Array
+(
+    [email] => admin@admin.com
+    [description] => Name: Emre Koc, Username: admin
+    [name] => Emre Koc
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2021-05-30T10:56:50+00:00 DEBUG 
+====Stripe Version: 5.2.0====
+====Start Log====
+Info: Begin processing payment for order 433 for the amount of 348.04
+====End Log====
+
+
+2021-05-30T10:56:50+00:00 DEBUG 
+====Stripe Version: 5.2.0====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1IwmK4GPEcYZbxUfoWxBty9Q
+    [amount] => 34804
+    [currency] => aud
+    [description] => Dresden - Order 433
+    [metadata] => Array
+        (
+            [customer_name] => Emre Koc
+            [customer_email] => emrekoch@gmail.com
+            [order_id] => 433
+            [site_url] => https://woo.dresden.io
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_JZwCq0Tpd84VgZ
+    [statement_descriptor] => Woo commerce test
+    [shipping] => Array
+        (
+            [name] => Emre Koc
+            [address] => Array
+                (
+                    [line1] => Avcilar sk 52C
+                    [line2] => 
+                    [city] => Istanbul
+                    [country] => TR
+                    [postal_code] => 34153
+                    [state] => TR34
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2021-05-30T10:56:51+00:00 DEBUG 
+====Stripe Version: 5.2.0====
+====Start Log====
+Stripe PaymentIntent pi_1IwmK6GPEcYZbxUfYbQeFf5P initiated for order 433
+====End Log====
+
+
+2021-05-30T10:56:51+00:00 DEBUG 
+====Stripe Version: 5.2.0====
+====Start Log====
+payment_intents/pi_1IwmK6GPEcYZbxUfYbQeFf5P/confirm request: Array
+(
+    [source] => src_1IwmK4GPEcYZbxUfoWxBty9Q
+)
+
+====End Log====
+
+
+2021-05-30T10:56:52+00:00 DEBUG 
+====Stripe Version: 5.2.0====
+====Start Log====
+Stripe PaymentIntent pi_1IwmK6GPEcYZbxUfYbQeFf5P succeeded for order 433
+====End Log====
+
+
+2021-05-30T10:56:52+00:00 DEBUG 
+====Stripe Version: 5.2.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1IwmK7GPEcYZbxUfhM8kNG4C
+    [object] => charge
+    [amount] => 34804
+    [amount_captured] => 34804
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_1IwmK7GPEcYZbxUf54f5P9Ee
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Istanbul
+                    [country] => TR
+                    [line1] => Avcilar sk 52C
+                    [line2] => 
+                    [postal_code] => 34153
+                    [state] => TR34
+                )
+
+            [email] => emrekoch@gmail.com
+            [name] => Emre Koc
+            [phone] => +905334887405
+        )
+
+    [calculated_statement_descriptor] => WOO COMMERCE TEST
+    [captured] => 1
+    [created] => 1622372211
+    [currency] => aud
+    [customer] => cus_JZwCq0Tpd84VgZ
+    [description] => Dresden - Order 433
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => Emre Koc
+            [customer_email] => emrekoch@gmail.com
+            [order_id] => 433
+            [site_url] => https://woo.dresden.io
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 53
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_1IwmK6GPEcYZbxUfYbQeFf5P
+    [payment_method] => src_1IwmK4GPEcYZbxUfoWxBty9Q
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 2
+                    [exp_year] => 2022
+                    [fingerprint] => s8pcmahpyUg05BiC
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1CwzjrGPEcYZbxUf/ch_1IwmK7GPEcYZbxUfhM8kNG4C/rcpt_JZwCGYDn9ZnM0fCvgiuTGEJqZi5kuKs
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1IwmK7GPEcYZbxUfhM8kNG4C/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Istanbul
+                    [country] => TR
+                    [line1] => Avcilar sk 52C
+                    [line2] => 
+                    [postal_code] => 34153
+                    [state] => TR34
+                )
+
+            [carrier] => 
+            [name] => Emre Koc
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => stdClass Object
+        (
+            [id] => src_1IwmK4GPEcYZbxUfoWxBty9Q
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 2
+                    [exp_year] => 2022
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [cvc_check] => pass
+                    [funding] => credit
+                    [fingerprint] => s8pcmahpyUg05BiC
+                    [three_d_secure] => optional
+                    [name] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_Bq3LbFNct9Z3Y7jWQXeTJlmj
+            [created] => 1622372211
+            [currency] => 
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Istanbul
+                            [country] => TR
+                            [line1] => Avcilar sk 52C
+                            [line2] => 
+                            [postal_code] => 34153
+                            [state] => TR34
+                        )
+
+                    [email] => emrekoch@gmail.com
+                    [name] => Emre Koc
+                    [phone] => +905334887405
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => Woo commerce test
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2021-05-30T10:56:52+00:00 DEBUG 
+====Stripe Version: 5.2.0====
+====Start Log====
+balance/history/txn_1IwmK7GPEcYZbxUf54f5P9Ee
+====End Log====
+
+

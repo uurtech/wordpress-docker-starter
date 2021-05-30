@@ -1,0 +1,180 @@
+2021-05-30T16:51:04+00:00 CRITICAL Uncaught Exception: You must define the GraphQL JWT Auth secret to use the WPGraphQL JWT Authentication plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php:195
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\JWT_Authentication\JWT_Authentication::WPGraphQL\JWT_Authentication\{closure}()
+#1 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/wp-content/plugins/wp-graphql/src/Request.php(134): do_action()
+#4 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(464): WPGraphQL\Request->__construct()
+#5 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(270): WPGraphQL\Router::process_http_request()
+#6 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\Router::resolve_http_request()
+#7 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php on line 195
+
+2021-05-30T16:51:09+00:00 CRITICAL Uncaught Exception: You must define the GraphQL JWT Auth secret to use the WPGraphQL JWT Authentication plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php:195
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\JWT_Authentication\JWT_Authentication::WPGraphQL\JWT_Authentication\{closure}()
+#1 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/wp-content/plugins/wp-graphql/src/Request.php(134): do_action()
+#4 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(464): WPGraphQL\Request->__construct()
+#5 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(270): WPGraphQL\Router::process_http_request()
+#6 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\Router::resolve_http_request()
+#7 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php on line 195
+
+2021-05-30T16:51:27+00:00 CRITICAL Uncaught Exception: You must define the GraphQL JWT Auth secret to use the WPGraphQL JWT Authentication plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php:195
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\JWT_Authentication\JWT_Authentication::WPGraphQL\JWT_Authentication\{closure}()
+#1 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/wp-content/plugins/wp-graphql/src/Request.php(134): do_action()
+#4 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(464): WPGraphQL\Request->__construct()
+#5 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(270): WPGraphQL\Router::process_http_request()
+#6 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\Router::resolve_http_request()
+#7 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php on line 195
+
+2021-05-30T16:51:30+00:00 CRITICAL Uncaught Exception: You must define the GraphQL JWT Auth secret to use the WPGraphQL JWT Authentication plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php:195
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\JWT_Authentication\JWT_Authentication::WPGraphQL\JWT_Authentication\{closure}()
+#1 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/wp-content/plugins/wp-graphql/src/Request.php(134): do_action()
+#4 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(464): WPGraphQL\Request->__construct()
+#5 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(270): WPGraphQL\Router::process_http_request()
+#6 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\Router::resolve_http_request()
+#7 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php on line 195
+
+2021-05-30T16:52:37+00:00 CRITICAL Uncaught Exception: You must define the GraphQL JWT Auth secret to use the WPGraphQL JWT Authentication plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php:195
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\JWT_Authentication\JWT_Authentication::WPGraphQL\JWT_Authentication\{closure}()
+#1 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/wp-content/plugins/wp-graphql/src/Request.php(134): do_action()
+#4 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(464): WPGraphQL\Request->__construct()
+#5 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(270): WPGraphQL\Router::process_http_request()
+#6 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\Router::resolve_http_request()
+#7 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php on line 195
+
+2021-05-30T16:53:39+00:00 CRITICAL Uncaught Exception: You must define the GraphQL JWT Auth secret to use the WPGraphQL JWT Authentication plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php:195
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\JWT_Authentication\JWT_Authentication::WPGraphQL\JWT_Authentication\{closure}()
+#1 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/wp-content/plugins/wp-graphql/src/Request.php(134): do_action()
+#4 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(464): WPGraphQL\Request->__construct()
+#5 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(270): WPGraphQL\Router::process_http_request()
+#6 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\Router::resolve_http_request()
+#7 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php on line 195
+
+2021-05-30T16:53:41+00:00 CRITICAL Uncaught Exception: You must define the GraphQL JWT Auth secret to use the WPGraphQL JWT Authentication plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php:195
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\JWT_Authentication\JWT_Authentication::WPGraphQL\JWT_Authentication\{closure}()
+#1 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/wp-content/plugins/wp-graphql/src/Request.php(134): do_action()
+#4 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(464): WPGraphQL\Request->__construct()
+#5 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(270): WPGraphQL\Router::process_http_request()
+#6 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\Router::resolve_http_request()
+#7 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php on line 195
+
+2021-05-30T16:55:25+00:00 CRITICAL Uncaught Exception: You must define the GraphQL JWT Auth secret to use the WPGraphQL JWT Authentication plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php:195
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\JWT_Authentication\JWT_Authentication::WPGraphQL\JWT_Authentication\{closure}()
+#1 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/wp-content/plugins/wp-graphql/src/Request.php(134): do_action()
+#4 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(464): WPGraphQL\Request->__construct()
+#5 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(270): WPGraphQL\Router::process_http_request()
+#6 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\Router::resolve_http_request()
+#7 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php on line 195
+
+2021-05-30T16:55:48+00:00 CRITICAL Uncaught Exception: You must define the GraphQL JWT Auth secret to use the WPGraphQL JWT Authentication plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php:195
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\JWT_Authentication\JWT_Authentication::WPGraphQL\JWT_Authentication\{closure}()
+#1 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/wp-content/plugins/wp-graphql/src/Request.php(134): do_action()
+#4 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(464): WPGraphQL\Request->__construct()
+#5 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(270): WPGraphQL\Router::process_http_request()
+#6 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\Router::resolve_http_request()
+#7 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php on line 195
+
+2021-05-30T18:37:26+00:00 CRITICAL Uncaught Exception: You must define the GraphQL JWT Auth secret to use the WPGraphQL JWT Authentication plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php:195
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\JWT_Authentication\JWT_Authentication::WPGraphQL\JWT_Authentication\{closure}()
+#1 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/wp-content/plugins/wp-graphql/src/Request.php(134): do_action()
+#4 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(464): WPGraphQL\Request->__construct()
+#5 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(270): WPGraphQL\Router::process_http_request()
+#6 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\Router::resolve_http_request()
+#7 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php on line 195
+
+2021-05-30T18:37:28+00:00 CRITICAL Uncaught Exception: You must define the GraphQL JWT Auth secret to use the WPGraphQL JWT Authentication plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php:195
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\JWT_Authentication\JWT_Authentication::WPGraphQL\JWT_Authentication\{closure}()
+#1 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/wp-content/plugins/wp-graphql/src/Request.php(134): do_action()
+#4 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(464): WPGraphQL\Request->__construct()
+#5 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(270): WPGraphQL\Router::process_http_request()
+#6 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\Router::resolve_http_request()
+#7 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php on line 195
+
+2021-05-30T18:47:33+00:00 CRITICAL Uncaught Exception: You must define the GraphQL JWT Auth secret to use the WPGraphQL JWT Authentication plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php:195
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\JWT_Authentication\JWT_Authentication::WPGraphQL\JWT_Authentication\{closure}()
+#1 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/wp-content/plugins/wp-graphql/src/Request.php(134): do_action()
+#4 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(464): WPGraphQL\Request->__construct()
+#5 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(270): WPGraphQL\Router::process_http_request()
+#6 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\Router::resolve_http_request()
+#7 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php on line 195
+
+2021-05-30T18:47:37+00:00 CRITICAL Uncaught Exception: You must define the GraphQL JWT Auth secret to use the WPGraphQL JWT Authentication plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php:195
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\JWT_Authentication\JWT_Authentication::WPGraphQL\JWT_Authentication\{closure}()
+#1 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/wp-content/plugins/wp-graphql/src/Request.php(134): do_action()
+#4 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(464): WPGraphQL\Request->__construct()
+#5 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(270): WPGraphQL\Router::process_http_request()
+#6 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\Router::resolve_http_request()
+#7 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php on line 195
+
+2021-05-30T18:51:19+00:00 CRITICAL Uncaught Exception: You must define the GraphQL JWT Auth secret to use the WPGraphQL JWT Authentication plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php:195
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\JWT_Authentication\JWT_Authentication::WPGraphQL\JWT_Authentication\{closure}()
+#1 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/wp-content/plugins/wp-graphql/src/Request.php(134): do_action()
+#4 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(464): WPGraphQL\Request->__construct()
+#5 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(270): WPGraphQL\Router::process_http_request()
+#6 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\Router::resolve_http_request()
+#7 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php on line 195
+
+2021-05-30T18:51:33+00:00 CRITICAL Uncaught Exception: You must define the GraphQL JWT Auth secret to use the WPGraphQL JWT Authentication plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php:195
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\JWT_Authentication\JWT_Authentication::WPGraphQL\JWT_Authentication\{closure}()
+#1 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/wp-content/plugins/wp-graphql/src/Request.php(134): do_action()
+#4 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(464): WPGraphQL\Request->__construct()
+#5 /var/www/html/wp-content/plugins/wp-graphql/src/Router.php(270): WPGraphQL\Router::process_http_request()
+#6 /var/www/html/wp-includes/class-wp-hook.php(292): WPGraphQL\Router::resolve_http_request()
+#7 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin. in /var/www/html/wp-content/plugins/wp-graphql-jwt-authentication-develop/wp-graphql-jwt-authentication.php on line 195
+

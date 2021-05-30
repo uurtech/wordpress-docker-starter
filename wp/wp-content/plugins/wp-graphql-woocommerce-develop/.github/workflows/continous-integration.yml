@@ -1,0 +1,75 @@
+name: Automated-Testing
+
+on:
+  schedule:
+    - cron:  '0 4 * * 5'
+  push:
+    branches:
+      - develop
+      - master
+  pull_request:
+    branches:
+      - develop
+    paths:
+      - '**.php'
+      - '!docs/**'
+
+jobs:
+  Automated-Testing:
+    env:
+      STRIPE_API_PUBLISHABLE_KEY: ${{ secrets.STRIPE_API_PUBLISHABLE_KEY }}
+      STRIPE_API_SECRET_KEY: ${{ secrets.STRIPE_API_SECRET_KEY }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php: ['7.4', '7.3', '7.2', '7.1']
+        wordpress: ['5.6', '5.0']
+        include:
+          - php: '7.4'
+            wordpress: '5.6'
+            coverage: '--coverage --coverage-xml'
+          - php: '7.3'
+            wordpress: '5.0'
+            debug: '--debug'
+
+      fail-fast: false
+    name: WordPress ${{ matrix.wordpress }} on PHP ${{ matrix.php }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          extensions: json, mbstring
+          tools: composer
+
+      - name: Install dependencies
+        run: |
+          echo EMPTY ${{ env.STRIPE_API_PUBLISHABLE_KEY }}
+          cp .env.dist .env
+          SKIP_DB_CREATE=true SKIP_WP_SETUP=true composer require --dev johnpbloch/wordpress:~${{ matrix.wordpress }}
+          composer installTestEnv
+
+      - name: Run Tests w/ Docker.
+        env:
+          WP_VERSION: ${{ matrix.wordpress }}
+          PHP_VERSION: ${{ matrix.php }}
+        run: FILTER="${{ matrix.coverage }} ${{ matrix.debug }}" composer dRunTestStandalone
+
+      - name: Push Codecoverage to Coveralls.io
+        if: ${{ matrix.coverage == '--coverage --coverage-xml' && env.STRIPE_API_PUBLISHABLE_KEY != null }}
+        env:
+          COVERALLS_RUN_LOCALLY: 1
+          COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: vendor/bin/php-coveralls -v
+
+      - name: Test & publish code coverage
+        if: ${{ matrix.coverage == '--coverage --coverage-xml' }}
+        uses: paambaati/codeclimate-action@v2.7.5
+        env:
+          CC_TEST_REPORTER_ID: 739347fbfc0caa4e7f25069899203df2d4a411b3cbc9c3b1ef28257520c99d31
+        with:
+          coverageLocations: |
+            ${{github.workspace}}/tests/_output/*.xml:clover

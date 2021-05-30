@@ -1,0 +1,28 @@
+/*
+* Theme Name: Leto
+*
+* RTL support
+*/
+
+
+/* 1. General */
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+/* 2. WooCommerce */
+.cart-mini-wrapper {
+	right: auto;
+	left: 0;
+}
+.cart-mini-wrapper ul.product_list_widget li {
+	padding-right: 30px;
+}
+/* 3. Posts */
+.single.has-sidebar .entry-header {
+	text-align: right;
+}
+.featured-box-section .featured-box-item:not(:first-child) .featured-box-item__inner {
+    border-right: 1px solid #e3e3e3;
+    padding-right: 20px;
+}

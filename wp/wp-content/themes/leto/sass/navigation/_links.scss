@@ -1,0 +1,55 @@
+a {
+	color: #000;
+	text-decoration: none;
+	@include transition(.3s);
+
+	&:focus,
+	&:hover,
+	&:active {
+		color: #000;
+		text-decoration: none;
+		outline: 0;
+	}
+}
+
+
+.button-underline {
+	text-transform: uppercase;
+	border-bottom: 1px solid #000;
+	font-weight: 500;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 16px;
+	@include transition(all .3s ease);
+	position: relative;
+
+	&:after {
+		content: "";
+		height: 1px;
+		background-color: #000;
+		width: 0;
+		bottom: -1px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		@include transition(width .3s ease-out);
+		-webkit-transition-delay: 50ms;
+		transition-delay: 50ms;
+	}
+
+	&:hover {
+		text-decoration: none;
+		border-color: transparent;
+
+		&:after {
+			width: 100%;
+		}
+	}
+}
+
+.cart-mini-wrapper .wc-forward {
+	&:hover {
+		color: #fff !important;
+	}
+}
