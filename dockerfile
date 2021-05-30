@@ -1,12 +1,3 @@
-FROM composer as builder
-
-WORKDIR /app
-COPY src/composer.json /app/
-RUN composer install  \
-    --ignore-platform-reqs \
-    --no-interaction \
-    --no-scripts
-
 FROM ubuntu:20.04
 
 RUN apt-get update -y && apt-get -y install tzdata
@@ -30,7 +21,7 @@ RUN apt update \
     && npm install -g sass
 
 RUN chmod -R 755 /var/www/html
-COPY --from=builder /app/ /var/www/html/
+
 
 COPY src/conf/default /etc/nginx/sites-available/default
 COPY src/conf/php.ini /etc/php/7.4/fpm/php.ini
