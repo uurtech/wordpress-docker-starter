@@ -3,6 +3,11 @@ ini_set('display_errors','Off');
 ini_set('error_reporting', E_ALL );
 define('WP_DEBUG', false);
 define('WP_DEBUG_DISPLAY', false);
+define( 'WP_DEBUG', true );
+define( 'WP_DEBUG_LOG', true );
+define( 'WP_DEBUG_DISPLAY', false );
+
+define( 'GRAPHQL_JWT_AUTH_SECRET_KEY', 'Y{[88Q?0ftA%Gp><P* X-caBQ)az<-*E`vsC_kiz%H :lB|LiSRPUm+!-mC6ZBD)' );
 
 define('WP_HOME','https://woo.dresden.io/');
 define('WP_SITEURL','https://woo.dresden.io/');
